@@ -1,0 +1,81 @@
+body {
+    background-image: url('../imagenes/fondo.jpg');
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-attachment: fixed; /* Hace que el fondo sea estático */
+    background-position: center; /* Centra la imagen de fondo */
+}
+/* Estilos del navbar */
+/* Estilo para el navbar con degradado */
+.navbar {
+    background: rgb(14, 158, 187);
+    background: linear-gradient(90deg, #0e9ebb 0%, #096779 37%, #020024 100%);
+}
+
+/* Estilo para el footer con degradado */
+footer {
+    background: rgb(14, 158, 187);
+    background: linear-gradient(90deg, rgba(14, 158, 187, 1) 0%, rgba(9, 103, 121, 1) 37%, rgba(2, 0, 36, 1) 100%);
+}
+
+
+.navbar a{
+    color: white !important;
+    transition: color 0.3s ease, transform 0.3s ease;
+    /* Transición suave */
+    font-weight: 500;
+}
+
+/* Efecto hover para resaltar enlaces */
+.navbar a:hover{
+    color: #fff7e7 !important;
+    /* Cambia el color al pasar sobre el enlace */
+    transform: scale(1.01);
+    /* Efecto de agrandamiento */
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7);
+    /* Sombra para resaltar */
+}
+
+h1,h2,h3,p{
+    color:rgb(255, 255, 255)
+}
+
+/* Estilos del footer */
+
+
+/* Enlaces dentro del footer */
+footer a,
+footer p {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+    /* Transición suave */
+}
+
+/* Efecto hover para resaltar enlaces en el footer */
+footer a:hover,
+footer p:hover {
+    color: #fff7e7;
+    /* Cambia el color al pasar sobre el enlace */
+    transform: scale(1.1);
+    /* Efecto de agrandamiento */
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7);
+    /* Sombra para resaltar */
+}
+
+.swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }

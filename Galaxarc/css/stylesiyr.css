@@ -1,0 +1,47 @@
+
+.login-page {
+    background-image: url('../imagenes/fondol.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    background: rgba(196, 224, 255, 0.518);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-primary {
+    background-color: #096779;
+    border-color: #096779;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #096779;
+    border-color: #096779;
+    transform: scale(1.05);
+}
+
+.btn-primary:active {
+    background-color: #096779;; /* Color cuando el botón está siendo clicado */
+    border-color: #096779;;
+}
+
+a {
+    color: #0a4e5c;
+}
+
+a:hover {
+    color: #094e5c;
+}
